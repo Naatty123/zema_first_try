@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{    
+    .toplinks{
+        @apply no-underline text-black m-4 pr-5 h-16 flex items-center hover:bg-gray-200;
+    }
+    .borderright{
+        @apply border-r-2 border-gray-200;
+    }
+}
+@layer base {
+    #zname {
+      font-family: Old English Text MT;
+    }
+  }
