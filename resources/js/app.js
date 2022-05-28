@@ -30,4 +30,4 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: 'body',
 });
-console.log("Vue Works");
+// console.log("Vue Works");
